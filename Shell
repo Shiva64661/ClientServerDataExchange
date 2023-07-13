@@ -1,0 +1,5 @@
+$ g++ server.cpp -o server -lpthread
+$ ./server <port>
+
+$ g++ client.cpp -o client
+$ ./client <server_ip> <port>
